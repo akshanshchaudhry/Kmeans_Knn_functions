@@ -1,5 +1,7 @@
 # Kmeans_Knn_functions
 
+Used Python 3
+
 These are the functions for Kmeans and Knn. I have not used any library other than Numpy and Pandas.
 
 Please keep in mind that these are the funtions only. You will need to import your own dataset. Please follow the below instructions
