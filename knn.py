@@ -61,11 +61,11 @@ if __name__ == '__main__':
 
     data = load_data("your file name")
     standrardized_data = self_preprocessing(data)
-    x = 5 # it means number of nearest neighbours. I have written 5 as an example
+    y = 5 # it means number of nearest neighbours. I have written 5 as an example
     # you can split the data based on the value of x you give. x means the number of rows you select from the numpy array
     train_data = standrardized_data[:x]
     test_data = standrardized_data[x:]
 
     # For Knn function, the data must contain all the numerical values. The first column of the data set must contain the Labels. The label values must be in the form of 0,1,2,3 etc.
 
-    myknn(train_data,test_data,x)
+    myknn(train_data,test_data,y)
